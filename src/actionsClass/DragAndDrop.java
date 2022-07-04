@@ -11,7 +11,7 @@ import org.openqa.selenium.interactions.Actions;
 public class DragAndDrop {
 
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver", "D:\\Velocity\\Java Class\\5th March B Batch\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "E:\\\\selenium\\\\chromedriver.exe");
 		WebDriver driver= new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://demo.guru99.com/test/drag_drop.html");
